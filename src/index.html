@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 9</title>
+  </head>
+  <body>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+
+    <include src="./partials/gallery/gallery.html"></include>
+
+    <!--
+      Модальное окно для полноразмерного изображения
+      Для того чтобы открыть, необходимо добавить на div.lightbox CSS-класс is-open
+    -->
+
+    <include src="./partials/modal/modal.html"></include>
+
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script src="./index.js"></script>
+  </body>
+</html>
